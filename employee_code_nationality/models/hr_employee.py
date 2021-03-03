@@ -20,7 +20,7 @@ class HrEmployee(models.Model):
 
     _sql_constraints = [
         ('code_uniq', 'unique(code)',
-         'The Employee Number must be unique across the company(s).'),
+         'The Employee Code must be unique across the company(s).'),
     ]
 
     @api.model
