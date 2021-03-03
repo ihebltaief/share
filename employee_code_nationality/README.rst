@@ -1,18 +1,11 @@
 ===========
-Employee Id By Nationality
+Employee Code By Nationality
 ===========
 
-This module supports sequence of employee ID which will be generated
+This module supports sequence of employee Code which will be generated
 automatically from the sequence predefined.
 
-Nevertheless, if you need a difference ID in particular cases
-you can pass a custom value for `identification_id`: if you do it
-no automatic generation happens.
 
-**Table of contents**
-
-.. contents::
-   :local:
 
 Installation
 ============
@@ -30,7 +23,7 @@ Configuration
 
 If you want to modify the format of the sequence, go to
 Settings -> Technical -> Sequences & Identifiers -> Sequences
-and search for the "Employee Identifier By Nationality" sequence, where you modify
+and search for the "Employee Code By Nationality" sequence, where you modify
 numbering formats...
 
 
@@ -43,7 +36,7 @@ assigned automatically with the next number of the predefined sequence and with 
 Known issues / Roadmap
 ======================
 
-* When installing the module, the ID of existing employees is not generated automatically
+* When installing the module, the Code of existing employees is not generated automatically
 
 Credits
 =======
