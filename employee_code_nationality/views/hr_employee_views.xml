@@ -7,11 +7,10 @@
         <field name="inherit_id" ref="hr.view_employee_form"/>
         <field name="groups_id" eval="[(6, 0, [ref('hr.group_hr_user') ])]"/>
         <field name="arch" type="xml">
-            <field name="identification_id" position="replace"/>
+            <field name="category_ids" position="before"/>
             <xpath expr="//div[hasclass('oe_title')]" position="inside">
-                <label for="identification_id" class="oe_edit_only"/>
                 <h3>
-                    <field name="identification_id"/>
+                    <field name="code" placeholder="Code"/>
                 </h3>
             </xpath>
         </field>
@@ -24,7 +23,7 @@
         <field name="groups_id" eval="[(6, 0, [ref('hr.group_hr_user') ])]"/>
         <field name="arch" type="xml">
             <field name="name" position="after">
-                <field name="identification_id"/>
+                <field name="code"/>
             </field>
         </field>
     </record>
@@ -36,7 +35,7 @@
         <field name="groups_id" eval="[(6, 0, [ref('hr.group_hr_user') ])]"/>
         <field name="arch" type="xml">
             <field name="name" position="after">
-                <field name="identification_id"/>
+                <field name="code"/>
             </field>
             <xpath expr="//filter[@name='group_manager']" position="after">
                 <filter name="group_nationality" string="Nationality" domain="[]" context="{'group_by':'country_id'}"/>
@@ -52,12 +51,12 @@
         <field name="arch" type="xml">
             <li id="last_login" position="after">
                 <h7>
-                    <t t-if="record.identification_id.raw_value"
+                    <t t-if="record.code.raw_value"
                        t-set="red">oe_kanban_text_red
                     </t>
                     <span t-attf-class="#{red || ''}">
                         <i>
-                            <field name="identification_id"/>
+                            <field name="code"/>
                         </i>
                     </span>
                 </h7>

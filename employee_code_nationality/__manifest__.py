@@ -2,11 +2,11 @@
 # ------- OLYA-TECH Company ------
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
 {
-    'name': 'Employee Id By Nationality',
+    'name': 'Employee Code By Nationality',
     'version': '12.0.1.0.1',
     'license': 'AGPL-3',
     'category': 'Generic Modules/Human Resources',
-    'summary': 'Generate automatic id for employees with nationality code prefix when create or import employees',
+    'summary': 'Generate automatic Code for employees with nationality code prefix when create or import employees',
     'author':
         'Iheb Ltaief',
     'depends': [
