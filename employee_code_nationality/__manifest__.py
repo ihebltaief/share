@@ -7,8 +7,11 @@
     'license': 'AGPL-3',
     'category': 'Generic Modules/Human Resources',
     'summary': 'Generate automatic Code for employees with nationality code prefix when create or import employees',
-    'author':
-        'Iheb Ltaief',
+    'author': 'Iheb Ltaief',
+    'support': 'ihebltaief@gmail.com',
+    'price': '0',
+    'currency:': 'EUR',
+    'images': ['static/description/icon.png'],
     'depends': [
         'hr'
     ],
