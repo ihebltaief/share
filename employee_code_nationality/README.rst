@@ -12,7 +12,7 @@ Installation
 
 To install this module, you need to:
 
-* clone the branch 12.0 of the repository https://github.com/ihebltaief/share
+* clone the branch 13.0 of the repository https://github.com/ihebltaief/share
 * add the path to this repository in your configuration (addons-path)
 * update the module list
 * search for "Employee Id By Nationality" in your addons
