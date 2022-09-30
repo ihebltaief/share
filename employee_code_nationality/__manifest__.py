@@ -9,7 +9,7 @@
     'summary': 'Generate automatic Code for employees with nationality code prefix when create or import employees',
     'author': 'Iheb Ltaief',
     'support': 'ihebltaief@gmail.com',
-    'price': '5',
+    'price': '5.00',
     'currency:': 'USD',
     'images': ['static/description/icon.png'],
     'depends': [
