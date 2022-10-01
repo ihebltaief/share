@@ -1,12 +1,12 @@
 <section class="oe_container lead" style="padding:20px 20px 0px 20px ;">
     <div class="oe_row">
         <div class=" text-center oe_span12">
-            <h2 class="oe_slogan text-center"><b>Employee Code By Nationality</b></h2>
+            <h2 class="oe_slogan text-center"><b>Payroll Accounting Extension</b></h2>
         </div>
 
         <div class="oe_span12">
             <p class="oe_mt16">
-                Generate automatic Code for employees with nationality code prefix when create or import employees.
+                Journal Entry lines linked with partner and analytic account linked only with expense accounts
             </p>
 
         </div>
@@ -26,10 +26,12 @@
                     <ul>
 
 
-                        <li>Generate automatic sequence employee Code with country code prefix</li>
+                        <li>Choose the rule that you want to be linked with partner like Loan and Salary advance</li>
 
                         </li>
-                        <li>Support odoo version 13 12 11 10 .</li>
+                        <li>Analytic account configured in rules will be linked only with expense accounts not with all
+                            journal entry lines like standard Odoo
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -62,35 +64,63 @@
                                         <section class="oe_container  lead">
                                             <div class="panel-heading alert alert-success">
                                                 <i class="fa fa-hand-o-down"></i>
-                                                <b>When create employees you should select Nationality </b>
+                                                <b>Modify you rule and configure debit and credit accounts</b>
+                                                <b>(Only account with type receivable or payable can affect the
+                                                    partner)</b>
+
                                             </div>
                                             <p><img style="max-width:100%" class="img-border img-responsive thumbnail"
-                                                    src="nat.png" alt="1"></p>
+                                                    src="rule-accounts.png" alt="1"></p>
                                         </section>
                                         <section class="oe_container  lead">
                                             <div class="panel-heading alert alert-success">
                                                 <i class="fa fa-hand-o-down"></i>
-                                                <b>Code will be created automatically with country prefix,
-                                                    it will appear in Tree View</b>
+                                                <b>Check the field "Affect Partner"</b>
                                             </div>
                                             <p><img style="max-width:100%" class="img-border img-responsive thumbnail"
-                                                    src="Tree.png" alt="1"></p>
+                                                    src="affect.png" alt="1"></p>
                                         </section>
                                         <section class="oe_container  lead">
                                             <div class="panel-heading alert alert-success">
                                                 <i class="fa fa-hand-o-down"></i>
-                                                <b>New group filter "Nationality" </b>
+                                                <b>Employee should be linked with contact(partner)</b>
                                             </div>
                                             <p><img style="max-width:100%" class="img-border img-responsive thumbnail"
-                                                    src="group.png" alt="1"></p>
+                                                    src="emp.png" alt="1"></p>
                                         </section>
                                         <section class="oe_container  lead">
                                             <div class="panel-heading alert alert-success">
                                                 <i class="fa fa-hand-o-down"></i>
-                                                <b>Employee Code appear in kanban view also </b>
+                                                <b>Select The analytic account in the running contract</b>
                                             </div>
                                             <p><img style="max-width:100%" class="img-border img-responsive thumbnail"
-                                                    src="kanban.png" alt="1"></p>
+                                                    src="ana.png" alt="1"></p>
+                                        </section>
+                                        <section class="oe_container  lead">
+                                            <div class="panel-heading alert alert-success">
+                                                <i class="fa fa-hand-o-down"></i>
+                                                <b>Works with single payslip</b>
+                                            </div>
+                                            <p><img style="max-width:100%" class="img-border img-responsive thumbnail"
+                                                    src="ln.png" alt="1"></p>
+                                            <p><img style="max-width:100%" class="img-border img-responsive thumbnail"
+                                                    src="comp.png" alt="1"></p>
+                                            <p><img style="max-width:100%" class="img-border img-responsive thumbnail"
+                                                    src="ent.png" alt="1"></p>
+                                            <p><img style="max-width:100%" class="img-border img-responsive thumbnail"
+                                                    src="pr.png" alt="1"></p>
+                                        </section>
+                                        <section class="oe_container  lead">
+                                            <div class="panel-heading alert alert-success">
+                                                <i class="fa fa-hand-o-down"></i>
+                                                <b>Works with batch payslip</b>
+                                            </div>
+                                            <p><img style="max-width:100%" class="img-border img-responsive thumbnail"
+                                                    src="btc.png" alt="1"></p>
+                                            <p><img style="max-width:100%" class="img-border img-responsive thumbnail"
+                                                    src="btc1.png" alt="1"></p>
+                                            <p><img style="max-width:100%" class="img-border img-responsive thumbnail"
+                                                    src="jrn.png" alt="1"></p>
                                         </section>
                                     </div>
                                 </div>
@@ -119,17 +149,8 @@
                 <div class="oe_span12">
                     <p class="oe_mt32">
                     <ol>
-                        <li><strong>To Modify Sequence Options</strong>
-
-                            <p>If you want to modify the format of the sequence, go to
-                                Settings -> Technical -> Sequences & Identifiers -> Sequences
-                                and search for the "Employee Code By Nationality" sequence, where you modify
-                                numbering formats...
-                            </p>
+                        <li><strong>This module works with entreprise edition</strong>
                         </li>
-                        <li><strong>When installing the module, the Code of existing employees is not generated automatically</strong>
-                        </li>
-
                     </ol>
                     </p>
                 </div>
@@ -143,13 +164,15 @@
 <section class="oe_container lead " style="padding: 20px;background-color:#d9d7d7">
     <div class="oe_row  ">
         <div class="oe_span12">
-            <h2 class="text-center"><strong>Free Support<strong></h2>
+            <h2 class="text-center"><strong>For Support:<strong></h2>
             <br>
-            <p class="oe_mt16">
-                All our modules have been tested repeatedly on the corresponding version of odoo using Firefox and
-                Google Chrome. You purchased modules will get 90 Days free support (not include free download moudles)
-                incase any bugs or issue (Except data recovery).
-            </p>
+            <h2 class="text-center"><strong>ihebltaief@gmail.com</strong></h2>
+
+            <!--            <p class="oe_mt16">-->
+            <!--                All our modules have been tested repeatedly on the corresponding version of odoo using Firefox and-->
+            <!--                Google Chrome. You purchased modules will get 90 Days free support (not include free download moudles)-->
+            <!--                incase any bugs or issue (Except data recovery).-->
+            <!--            </p>-->
         </div>
     </div>
 
@@ -214,24 +237,20 @@
     <div class="oe_row  text-center">
         <div class="oe_span12">
             <h2 class="oe_slogan">
-                <a href="http://www.olyatech.com" target="new">
-                    <img class="oe_picture oe_screenshot" src="olya.png">
-                </a>
                 <br>
-                <a href="http://www.olyatech.com" style="color: #000000 !important;font-size:24px;">
-                    Get Help &amp; Support</a>
+                Get Help &amp; Support</a>
             </h2>
         </div>
         <br>
         <div class="oe_slogan  text-center">
+            <a class="btn btn-success mt8" title="Linkedin"
+               style="background-color: #0A61EE; color: #fff !important; position: relative; overflow: hidden;"
+               href="https://www.linkedin.com/in/iheb-ltaief-b4238b130/"> Linkedin </a>
             <a class="btn btn-success mt8" title="Website"
                style="background-color: #3399ff; color: #fff !important; position: relative; overflow: hidden;"
                href="http://www.olyatech.com"> Website </a>
-            <a class="btn btn-success mt8" title="Blog"
-               style="background-color: #ff3333; color: #fff !important; position: relative; overflow: hidden;"
-               href="http://www.olyatech.com/blog"> Blog </a>
             <a class="btn btn-success mt8" title="Send Email"
-               style="background-color: #ffcc00; color: #fff !important; position: relative; overflow: hidden;"
+               style="background-color: #BE098D; color: #fff !important; position: relative; overflow: hidden;"
                href="mailto:ihebltaief@gmail.com"> Send Email </a>
             <a class="btn btn-success mt8" title="Contact us!"
                style="background-color: #009900; color: #fff !important; position: relative; overflow: hidden;"
