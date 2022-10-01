@@ -21,6 +21,6 @@
     'auto_install': False,
     'application': True,
     # "images":['static/description/Banner.png'],
-    "live_test_url":'https://youtu.be/FSyn6axMrhA','license': 'OPL-1',
+    "live_test_url":'https://youtu.be/-W_djlVW14o',
     'license': 'OPL-1',
 }
