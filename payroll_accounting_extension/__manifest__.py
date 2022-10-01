@@ -20,7 +20,7 @@
     'installable': True,
     'auto_install': False,
     'application': True,
-    # "images":['static/description/Banner.png'],
+    'images': ['static/description/icon.png'],
     "live_test_url":'https://youtu.be/-W_djlVW14o',
     'license': 'OPL-1',
 }
